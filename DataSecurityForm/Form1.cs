@@ -1,4 +1,4 @@
-namespace DataSecurityManagerApp1
+namespace DataSecurityForm
 {
     public partial class Form1 : Form
     {
