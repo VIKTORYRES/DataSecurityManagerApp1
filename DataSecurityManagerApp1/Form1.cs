@@ -1,8 +1,8 @@
 namespace DataSecurityManagerApp1
 {
-    public partial class Form1 : Form
+    public partial class PasswordForm : Form
     {
-        public Form1()
+        public PasswordForm()
         {
             InitializeComponent();
         }
