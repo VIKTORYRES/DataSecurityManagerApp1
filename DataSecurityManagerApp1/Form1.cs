@@ -1,5 +1,6 @@
 namespace DataSecurityManagerApp1
 {
+<<<<<<< HEAD
     public class PasswordForm : Form
     {
         private TextBox passwordTextBox;
@@ -7,6 +8,11 @@ namespace DataSecurityManagerApp1
         private Button cancelButton;
         public string Password { get; private set; }
         public PasswordForm()
+=======
+    public partial class Form1 : Form
+    {
+        public Form1()
+>>>>>>> 52e2f595ab62c58a00db7f16a7ce135a604e908a
         {
             this.Text = "Введите пароль";
             this.Width = 300;
