@@ -84,6 +84,12 @@ namespace DataSecurityManagerApp1
         [STAThread]
         static void Main()
         {
+<<<<<<< HEAD
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            //ApplicationConfiguration.Initialize();
+=======
+>>>>>>> 52e2f595ab62c58a00db7f16a7ce135a604e908a
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new DataSecurityForm());
