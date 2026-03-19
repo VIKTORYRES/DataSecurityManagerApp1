@@ -2,9 +2,9 @@ namespace DataSecurityManagerApp1
 {
     public class PasswordForm : Form
     {
-        private TextBox passwordTextBox;
-        private Button okButton;
-        private Button cancelButton;
+        public TextBox passwordTextBox;
+        public Button okButton;
+        public Button cancelButton;
         public string Password { get; private set; }
         public PasswordForm()
         {
@@ -13,7 +13,7 @@ namespace DataSecurityManagerApp1
             this.Height = 100;
             CreateControls();
         }
-        private void CreateControls()
+        public void CreateControls()
         {
             passwordTextBox = new TextBox
             {
@@ -51,9 +51,9 @@ namespace DataSecurityManagerApp1
     }
     public class DataSecurityForm : Form
     {
-        private DataSecurityManager dataSecurityManager;
-        private Button encryptButton;
-        private Button decryptButton;
+        public DataSecurityManager dataSecurityManager;
+        public Button encryptButton;
+        public Button decryptButton;
         public DataSecurityForm()
         {
             this.Text = "”правление безопасностью данных";
@@ -62,7 +62,7 @@ namespace DataSecurityManagerApp1
             CreateControls();
             dataSecurityManager = new DataSecurityManager();
         }
-        private void CreateControls()
+        public void CreateControls()
         {
             encryptButton = new Button
             {

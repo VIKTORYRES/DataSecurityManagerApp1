@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11505.172 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSecurityManagerApp1", "DataSecurityManagerApp1\DataSecurityManagerApp1.csproj", "{C1FCF6AD-6F56-4A36-8219-8B4F31549701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSecurityManagerApp1.Tests", "DataSecurityManagerApp1.Tests\DataSecurityManagerApp1.Tests.csproj", "{08E1A924-3641-427E-A9C8-7DC1594A5570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C1FCF6AD-6F56-4A36-8219-8B4F31549701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1FCF6AD-6F56-4A36-8219-8B4F31549701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1FCF6AD-6F56-4A36-8219-8B4F31549701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E1A924-3641-427E-A9C8-7DC1594A5570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E1A924-3641-427E-A9C8-7DC1594A5570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E1A924-3641-427E-A9C8-7DC1594A5570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E1A924-3641-427E-A9C8-7DC1594A5570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
